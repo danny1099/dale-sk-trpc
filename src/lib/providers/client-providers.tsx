@@ -4,7 +4,7 @@ import { TrpcProvider } from "@/lib/providers";
 
 export const ClientProviders = ({ children }: Children) => {
   return (
-    <NextThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+    <NextThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
       <TrpcProvider>{children}</TrpcProvider>
     </NextThemeProvider>
   );
